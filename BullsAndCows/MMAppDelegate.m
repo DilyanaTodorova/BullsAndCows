@@ -21,6 +21,10 @@
     // Override point for customization after application launch.
     MMMainViewController *controller = (MMMainViewController *)self.window.rootViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    
+    for(UIFont * font in [UIFont familyNames]){
+        NSLog(@"Font name : %@", font);
+    }
     return YES;
 }
 							

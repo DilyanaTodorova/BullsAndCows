@@ -27,6 +27,11 @@
 		5109B620167210CF009ADA55 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5109B5F6167210CE009ADA55 /* CoreData.framework */; };
 		5109B628167210CF009ADA55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5109B626167210CF009ADA55 /* InfoPlist.strings */; };
 		5109B62B167210CF009ADA55 /* BullsAndCowsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5109B62A167210CF009ADA55 /* BullsAndCowsTests.m */; };
+		5109B69C1672316D009ADA55 /* MMNumberChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5109B69B1672316D009ADA55 /* MMNumberChooser.m */; };
+		5109B6A316723BAB009ADA55 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5109B6A016723BAB009ADA55 /* background.png */; };
+		5109B6A416723BAB009ADA55 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5109B6A116723BAB009ADA55 /* background@2x.png */; };
+		5109B6A516723BAB009ADA55 /* background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5109B6A216723BAB009ADA55 /* background-568h@2x.png */; };
+		5109B6C316725D41009ADA55 /* Chunkfive.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5109B6C216725D41009ADA55 /* Chunkfive.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,12 @@
 		5109B627167210CF009ADA55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5109B629167210CF009ADA55 /* BullsAndCowsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullsAndCowsTests.h; sourceTree = "<group>"; };
 		5109B62A167210CF009ADA55 /* BullsAndCowsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsAndCowsTests.m; sourceTree = "<group>"; };
+		5109B69A1672316D009ADA55 /* MMNumberChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNumberChooser.h; sourceTree = "<group>"; };
+		5109B69B1672316D009ADA55 /* MMNumberChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNumberChooser.m; sourceTree = "<group>"; };
+		5109B6A016723BAB009ADA55 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		5109B6A116723BAB009ADA55 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		5109B6A216723BAB009ADA55 /* background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h@2x.png"; sourceTree = "<group>"; };
+		5109B6C216725D41009ADA55 /* Chunkfive.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chunkfive.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +108,7 @@
 		5109B5E1167210CE009ADA55 = {
 			isa = PBXGroup;
 			children = (
+				5109B69D167236B9009ADA55 /* Resources */,
 				5109B5F8167210CE009ADA55 /* BullsAndCows */,
 				5109B623167210CF009ADA55 /* BullsAndCowsTests */,
 				5109B5EF167210CE009ADA55 /* Frameworks */,
@@ -137,6 +149,8 @@
 				5109B614167210CE009ADA55 /* MMFlipsideViewController.m */,
 				5109B60D167210CE009ADA55 /* BullsAndCows.xcdatamodeld */,
 				5109B5F9167210CE009ADA55 /* Supporting Files */,
+				5109B69A1672316D009ADA55 /* MMNumberChooser.h */,
+				5109B69B1672316D009ADA55 /* MMNumberChooser.m */,
 			);
 			path = BullsAndCows;
 			sourceTree = "<group>";
@@ -172,6 +186,25 @@
 				5109B626167210CF009ADA55 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5109B69D167236B9009ADA55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5109B6C116725D2E009ADA55 /* Fonts */,
+				5109B6A016723BAB009ADA55 /* background.png */,
+				5109B6A116723BAB009ADA55 /* background@2x.png */,
+				5109B6A216723BAB009ADA55 /* background-568h@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5109B6C116725D2E009ADA55 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5109B6C216725D41009ADA55 /* Chunkfive.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +284,10 @@
 				5109B607167210CE009ADA55 /* Default@2x.png in Resources */,
 				5109B609167210CE009ADA55 /* Default-568h@2x.png in Resources */,
 				5109B60C167210CE009ADA55 /* MainStoryboard.storyboard in Resources */,
+				5109B6A316723BAB009ADA55 /* background.png in Resources */,
+				5109B6A416723BAB009ADA55 /* background@2x.png in Resources */,
+				5109B6A516723BAB009ADA55 /* background-568h@2x.png in Resources */,
+				5109B6C316725D41009ADA55 /* Chunkfive.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +327,7 @@
 				5109B60F167210CE009ADA55 /* BullsAndCows.xcdatamodeld in Sources */,
 				5109B612167210CE009ADA55 /* MMMainViewController.m in Sources */,
 				5109B615167210CE009ADA55 /* MMFlipsideViewController.m in Sources */,
+				5109B69C1672316D009ADA55 /* MMNumberChooser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

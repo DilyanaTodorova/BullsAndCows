@@ -10,7 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
-@interface MMMainViewController : UIViewController <MMFlipsideViewControllerDelegate>
+@interface MMMainViewController : UIViewController <MMFlipsideViewControllerDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
